@@ -1,5 +1,5 @@
 # github-practice
-Practice repository. Nothing here is real work.
+A hands-on sandbox for learning GitHub. Nothing here is real work.
 
 ## What I have learned
 
