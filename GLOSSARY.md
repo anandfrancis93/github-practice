@@ -17,3 +17,5 @@
 **Push** — uploading your local commits to GitHub.
 
 **Pull** — downloading other people's commits from GitHub into your local copy.
+
+**Fork** — your own copy of someone else's repository, stored under your account, so you can change it without needing their permission.
