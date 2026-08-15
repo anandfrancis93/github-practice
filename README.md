@@ -1,5 +1,5 @@
 # github-practice
-My sandbox for learning GitHub
+A hands-on sandbox where I am learning GitHub from scratch.
 
 
 ## What I have learned
