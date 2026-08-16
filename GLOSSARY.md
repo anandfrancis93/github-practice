@@ -25,3 +25,9 @@
 **Staging area** — a full snapshot of what your next commit would contain, pre-filled as a copy of the last commit. It is never empty. `git add` edits it; editing a file does not. Also called the **index**, or the **cache** in older flags.
 
 **Detached HEAD** — the state where you have moved to a specific commit rather than a branch. Any commit you make here belongs to no branch and is easy to lose.
+
+**Upstream** — the branch on a remote that your local branch is paired with. Stored as two lines in `.git/config`, and used to answer "push where?" and "how far ahead or behind am I?". It is a saved default, not a live connection.
+
+**Remote-tracking branch** — your local note of where a remote's branch was the last time you looked, such as `origin/main`. It only updates when you fetch, pull, or push.
+
+**Merge base** — the most recent commit that two branches both share. Git finds it by walking backwards from each branch until the paths meet, then compares each side against it to work out what each actually changed.
