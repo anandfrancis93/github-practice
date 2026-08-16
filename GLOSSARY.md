@@ -30,4 +30,4 @@
 
 **Remote-tracking branch** — your local note of where a remote's branch was the last time you looked, such as `origin/main`. It only updates when you fetch, pull, or push.
 
-**Merge base** — the most recent common ancestor of two branches. Every merge and every pull request diff is calculated against it.
+**Merge base** — the fork point: the most recent common ancestor of two branches, found by walking backwards from each until the paths meet. Every merge and every pull request diff is calculated against it.
