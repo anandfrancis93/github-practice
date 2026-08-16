@@ -30,4 +30,4 @@
 
 **Remote-tracking branch** — your local note of where a remote's branch was the last time you looked, such as `origin/main`. It only updates when you fetch, pull, or push.
 
-**Merge base** — the most recent commit that two branches both share. Git finds it by walking backwards from each branch until the paths meet, then compares each side against it to work out what each actually changed.
+**Merge base** — the most recent common ancestor of two branches. Every merge and every pull request diff is calculated against it.
